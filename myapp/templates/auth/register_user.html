@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>Sample Page</title>
+ 
+   
+
+</head>
+<body>
+    {% if form.errors %}
+        <p>There is an error.</p>
+    {% endif %}
+    <form action="{% url 'main:register_user' %}" method="post">
+        <h3>Register Here</h3>
+
+       {% csrf_token %}
+				{{ form.as_p }}
+				<br>
+				<button type="submit">Register
+				</button>
+        
+    </form>
+</body>
+</html>

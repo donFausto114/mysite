@@ -1,0 +1,49 @@
+html, body{
+    margin: 0!important;
+    padding: 0!important;
+    width: 100%;
+    
+}
+
+.homepage_body {
+    background-image: url('/static/pictures/acee_logow.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.acee_logo {
+           text-align-last: center;
+            border: 2px solid black;
+            font-size: 55px;
+        }
+
+
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+
+
+.form-page {
+    margin-top: 25px;
+}
+
+.mail-datatable-page {
+    margin: 35px;   
+    padding: 10px;
+    border-style: outset;
+}
+
+.all_mail_buttons {
+    height: auto;
+    padding-top: 5rem;
+}
+
+
+.toast:not(.show) {
+   display: block;
+}
